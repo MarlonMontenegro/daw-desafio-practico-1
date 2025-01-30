@@ -25,6 +25,6 @@ Los usuarios deberían poder:
 
 - [Miguel Eduardo Vallejos Linares](https://github.com/usuario1)
 - [Andrea Paola Montenegro Paz](https://github.com/usuario2)
-- [Marlon Eduardo Montenegro Paz]([https://github.com/usuario3](https://github.com/MarlonMontenegro))
+- [Marlon Eduardo Montenegro Paz]([https://github.com/MarlonMontenegro].
 - [Mayron Steve Lopez Giron](https://github.com/usuario4)
 - [Alejandro Benjamin Rivera Ochoa](https://github.com/usuario5)
