@@ -1,0 +1,138 @@
+/* Importar la fuente 'Work Sans' desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Importar la fuente 'Source Serif 4' desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+/* ========== VARIABLES ========== */
+:root {
+  /* Colores */
+  --background-color: #181a2a;
+  --color-text: #ffffff;
+  --text-focus: #4b6bfb;
+  --text-secundario: #97989f;
+
+  /* Tipografia  */
+
+  --fuente-principal: "Work Sans", serif;
+  --fuente-secundaria: "Source Sans 3", serif;
+}
+
+/* ========== ESTILOS GENERALES ========== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ----- INDEX ----- */
+
+/* >>> NAVBAR <<< */
+
+/* >>> CUERPO (BODY) <<< */
+
+/* >>> PIE DE PÁGINA (FOOTER) <<< */
+
+/* ----- BLOG POSTS ----- */
+
+.postBody {
+  font-family: var(--fuente-principal);
+  background-color: var(--background-color);
+  color: var(--color-text);
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.postHeader {
+  padding: 30px;
+  text-align: center;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.subject {
+  background-color: var(--text-focus);
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title {
+  letter-spacing: 5.5px;
+  line-height: 50px;
+  font-size: 2rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.headshot {
+  height: 35px;
+  border-radius: 50%;
+}
+.subtitle {
+  color: var(--text-secundario);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.postImg {
+  padding: 20px;
+  width: 100%;
+  background-image: url("../assets/img/post1-html.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.cardImg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.post-paragraph {
+  font-family: var(--fuente-secundaria);
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.postfooter {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
