@@ -23,7 +23,7 @@ Los usuarios deberían poder:
 
 ## Autores
 
-- [Miguel Eduardo Vallejos Linares](https://github.com/usuario1)
+- [Miguel Eduardo Vallejos Linares](https://github.com/Mike9426)
 - [Andrea Paola Montenegro Paz](https://github.com/usuario2)
 - [Marlon Eduardo Montenegro Paz](https://github.com/MarlonMontenegro).
 - [Mayron Steve Lopez Giron](https://github.com/usuario4)
