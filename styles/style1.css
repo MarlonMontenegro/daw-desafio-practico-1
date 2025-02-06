@@ -7,7 +7,6 @@
 }
 
 body {
-    font-family: "Work Sans", serif;
     text-align: center;
     background-color: #181a2a;
     display: flex;
@@ -18,23 +17,9 @@ body {
 
 main {
     flex: 1;
+    padding-top: 20%;
 }
 
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.encabezado {
-    background-color: #666;
-    color: white;
-    padding: 40px 20px;
-    font-size: 24px;
-    font-weight: bold;
-}
 
 .contenido {
     flex: 1;
@@ -61,26 +46,4 @@ footer {
     margin-bottom: 10px;
 }
 
-.pie-pagina {
-    background-color: #666;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-}
 
-/* NAVBAR */
-.navbar {
-    background-color: #333; /* Color de fondo */
-    color: white;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between; /* Espaciado entre logo y enlaces */
-    align-items: center;
-    position: fixed; /* Fija la barra en la parte superior */
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}

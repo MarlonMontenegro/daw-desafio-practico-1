@@ -20,19 +20,247 @@
 
 /* ========== ESTILOS GENERALES ========== */
 
-* {
+
+*{
   box-sizing: border-box;
 }
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  background-color: var(--background-color);
+  color: var(--color-text);
+  height: 100vh;
+}
+
 
 /* ----- INDEX ----- */
 
 /* >>> NAVBAR <<< */
 
-/* >>> CUERPO (BODY) <<< */
+header {
+  padding: 10px;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  justify-content: space-between ;
+}
+
+.navbar li {
+  margin: 0 20px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color:var(--color-text); /* Clean white text */
+  font-weight: 600; /* Slightly bold */
+  font-size: 1 rem ; /* Modern font size */
+  padding: 8px 12px; /* Add padding for clickable area */
+  
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar li a:hover {
+  background-color: white; /* Add a modern hover effect */
+  color: #7a3288; /* Contrast text color on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add depth on hover */
+}
+
+.navbar .logo {
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.logo span {
+  color: var(--text-focus);
+}
+
+
+.trademark {
+  font-size: 20px;
+  position: relative;
+  bottom: 15px;
+  left: 3.5px;
+
+}
+
+
+
+/* >>> Responsive Adjustments <<< */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .logo {
+    font-size: 2px; 
+    
+  }
+
+  .navbar .logo   {
+
+    font-size: 30px;
+  }
+  
+}
+
+
+/* >>> CUERPO (BODY / Index) <<< */
+
+
+main {
+    height: 100%;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.articulo {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.articulo p {
+  color: var(--background-color);
+}
+
+.imagen-articulo {
+  background-color: #999;
+  color: white;
+  padding: 60px 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post1-img {
+  background-image: url("../assets/img/post1-html.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+
+.title-post-thumbnail 
+{
+  font-weight: 900;
+  letter-spacing: 5px;
+
+}
+
+
+.title-post-thumbnail:hover
+{
+  color: var(--text-focus);
+
+}
+
+
 
 /* >>> PIE DE PÁGINA (FOOTER) <<< */
 
+footer {
+  color: var(--text-secundario);
+
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid rgba(138, 122, 138, 0.533);
+  padding: 10px;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between ;
+}
+
+.footer-nav li {
+  margin: 0 20px; 
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color:var(--color-text);
+  font-weight: 600;
+  font-size: 1 rem ; 
+  padding: 8px 12px;
+  
+  transition: all 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: var(--text-focus);
+}
+
+.footer-nav .logo {
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo span {
+  color: var(--text-focus);
+}
+
+
 /* ----- BLOG POSTS ----- */
+
 
 .postBody {
   font-family: var(--fuente-principal);
@@ -40,11 +268,6 @@
   color: var(--color-text);
   font-size: 1rem;
   padding: 20px;
-}
-
-.postHeader {
-  padding: 30px;
-  text-align: center;
 }
 
 .leftcolumn {
@@ -135,12 +358,6 @@
   content: "";
   display: table;
   clear: both;
-}
-
-.postfooter {
-  padding: 20px;
-  text-align: center;
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
