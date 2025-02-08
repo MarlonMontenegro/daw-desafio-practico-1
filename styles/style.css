@@ -20,11 +20,9 @@
 
 /* ========== ESTILOS GENERALES ========== */
 
-
-*{
+* {
   box-sizing: border-box;
 }
-
 
 a {
   text-decoration: none;
@@ -37,7 +35,6 @@ body {
   height: 100vh;
 }
 
-
 /* ----- INDEX ----- */
 
 /* >>> NAVBAR <<< */
@@ -47,7 +44,7 @@ header {
 }
 
 .navbar {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,20 +57,20 @@ header {
   margin: 0;
   padding: 0;
 
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .navbar li {
-  margin: 0 20px; 
+  margin: 0 20px;
 }
 
 .navbar a {
   text-decoration: none;
-  color:var(--color-text); /* Clean white text */
+  color: var(--color-text); /* Clean white text */
   font-weight: 600; /* Slightly bold */
-  font-size: 1 rem ; /* Modern font size */
+  font-size: 1 rem; /* Modern font size */
   padding: 8px 12px; /* Add padding for clickable area */
-  
+
   transition: all 0.3s ease; /* Smooth hover effect */
 }
 
@@ -94,16 +91,12 @@ header {
   color: var(--text-focus);
 }
 
-
 .trademark {
   font-size: 20px;
   position: relative;
   bottom: 15px;
   left: 3.5px;
-
 }
-
-
 
 /* >>> Responsive Adjustments <<< */
 @media (max-width: 768px) {
@@ -123,23 +116,18 @@ header {
   }
 
   .logo {
-    font-size: 2px; 
-    
+    font-size: 2px;
   }
 
-  .navbar .logo   {
-
+  .navbar .logo {
     font-size: 30px;
   }
-  
 }
-
 
 /* >>> CUERPO (BODY / Index) <<< */
 
-
 main {
-    height: 100%;
+  height: 100%;
 }
 
 .contenido {
@@ -157,7 +145,6 @@ main {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 .articulo p {
   color: var(--background-color);
@@ -180,37 +167,26 @@ main {
   border-radius: 20px;
 }
 
-
-.title-post-thumbnail 
-{
+.title-post-thumbnail {
   font-weight: 900;
   letter-spacing: 5px;
-
 }
 
-
-.title-post-thumbnail:hover
-{
+.title-post-thumbnail:hover {
   color: var(--text-focus);
-
 }
-
-
 
 /* >>> PIE DE PÁGINA (FOOTER) <<< */
 
 footer {
   color: var(--text-secundario);
-
 }
 
 .footer-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-
 
 .footer-nav {
   display: flex;
@@ -226,20 +202,20 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .footer-nav li {
-  margin: 0 20px; 
+  margin: 0 20px;
 }
 
 .footer-nav a {
   text-decoration: none;
-  color:var(--color-text);
+  color: var(--color-text);
   font-weight: 600;
-  font-size: 1 rem ; 
+  font-size: 1 rem;
   padding: 8px 12px;
-  
+
   transition: all 0.3s ease;
 }
 
@@ -258,9 +234,7 @@ footer {
   color: var(--text-focus);
 }
 
-
 /* ----- BLOG POSTS ----- */
-
 
 .postBody {
   font-family: var(--fuente-principal);
@@ -287,7 +261,7 @@ footer {
 
 .subject {
   background-color: var(--text-focus);
-  width: 120px;
+  width: 100px;
   padding: 5px;
   border-radius: 5px;
 }
@@ -317,9 +291,12 @@ footer {
 }
 
 .postImg,
-.postImg-2 {
+.postImg-2,
+.post2Img1,
+.post2Img2 {
   padding: 20px;
   width: 100%;
+  height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -334,6 +311,14 @@ footer {
   background-image: url("../assets/img/html-css-1.jpg");
 }
 
+.post2Img1 {
+  background-image: url("../assets/img/post2-IA1.jpg");
+}
+
+.post2Img2 {
+  background-image: url("../assets/img/post2-IA2.jpg");
+}
+
 .highlight {
   background-color: var(--text-focus);
   border-radius: 10px;
@@ -341,9 +326,31 @@ footer {
 }
 
 .cardImg {
-  background-color: #aaa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  height: 125px;
   padding: 20px;
+  border-radius: 20px;
+}
+
+.post1 {
+  background-image: url("../assets/img/post1-html.jpg");
+}
+
+.post2 {
+  background-image: url("../assets/img/post2-IA1.jpg");
+}
+
+.post3 {
+  background-image: url("../assets/img/tesla.avif");
+}
+
+.card-text {
+  letter-spacing: 1px;
+  line-height: 2.2;
+  text-align: justify;
 }
 
 .post-paragraph {
