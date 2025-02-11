@@ -304,19 +304,19 @@ footer {
 }
 
 .postImg {
-  background-image: url("../assets/img/post1-html.jpg");
+  background-image: url("../assets/img/post1-html.webp");
 }
 
 .postImg-2 {
-  background-image: url("../assets/img/html-css-1.jpg");
+  background-image: url("../assets/img/html-css-1.webp");
 }
 
 .post2Img1 {
-  background-image: url("../assets/img/post2-IA1.jpg");
+  background-image: url("../assets/img/post2-IA1.webp");
 }
 
 .post2Img2 {
-  background-image: url("../assets/img/post2-IA2.jpg");
+  background-image: url("../assets/img/post2-IA2.webp");
 }
 
 .highlight {
@@ -336,11 +336,11 @@ footer {
 }
 
 .post1 {
-  background-image: url("../assets/img/post1-html.jpg");
+  background-image: url("../assets/img/post1-html.webp");
 }
 
 .post2 {
-  background-image: url("../assets/img/post2-IA1.jpg");
+  background-image: url("../assets/img/post2-IA1.webp");
 }
 
 .post3 {
