@@ -293,7 +293,9 @@ footer {
 .postImg,
 .postImg-2,
 .post2Img1,
-.post2Img2 {
+.post2Img2,
+.post3Img1,
+.post3Img2 {
   padding: 20px;
   width: 100%;
   height: 350px;
@@ -317,6 +319,14 @@ footer {
 
 .post2Img2 {
   background-image: url("../assets/img/post2-IA2.webp");
+}
+
+.post3Img1 {
+    background-image: url("../assets/img/post3_img1.webp");
+}
+
+.post3Img2 {
+    background-image: url("../assets/img/post3_img2.webp");
 }
 
 .highlight {
