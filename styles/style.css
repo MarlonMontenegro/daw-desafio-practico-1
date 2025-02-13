@@ -167,6 +167,24 @@ main {
   border-radius: 20px;
 }
 
+.post2-img {
+  background-image: url("../assets/img/post2-IA1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+.post3-img {
+  background-image: url("../assets/img/post3_img1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
 .title-post-thumbnail {
   font-weight: 900;
   letter-spacing: 5px;
