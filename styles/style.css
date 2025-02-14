@@ -158,7 +158,7 @@ main {
 }
 
 .articulo p {
-  color: var(--background-color);
+  color: white;
 }
 
 .imagen-articulo {
